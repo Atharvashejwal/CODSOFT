@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.calcy{
+    border: 5px solid orange;
+    padding: 22px;
+    border-radius: 18px;
+    background: white;
+   }
 
 body{
     justify-content: center;
@@ -14,37 +20,28 @@ body{
     background: #7f8474;
 }
 
-.calcy{
-    border: 2px solid orange;
-    padding: 20px;
-    border-radius: 16px;
-    background: transparent;
-    
-}
-
 input{
-    width: 320px;
-    border: none;
+    width: 45vh;
+    font-size: 45px;
     padding: 25px;
-    margin: 10px;
-    background: transparent;
-    font-size: 40px;
+    margin: 12px;
+    background: black;
     text-align: right;
     cursor: pointer;
+    border:red;
     color:#e11111;
     box-shadow: 0px 4px 12px black;
 }
 
 button{
-    border: none;
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 12px;
     border-radius: 50%;
-    background: transparent;
+    background: rgb(128, 231, 240);
     color: #e11111;
-    font-size: 20px;
-    box-shadow: -5px -5px 5px rgba(255,255,255,0.2);
+    border: none;
+    font-size: 22px;
     cursor: pointer;
 }
 
@@ -52,6 +49,3 @@ input::placeholder{
     color:#e11111;
 }
 
-.operator{
-    color: rgb(31, 28, 219);
-}
