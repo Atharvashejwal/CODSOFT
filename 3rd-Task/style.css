@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+h1{
+    position: sticky;
+    left: -200px;
+    top: -120px;
+}
 .calcy{
     border: 5px solid orange;
     padding: 22px;
