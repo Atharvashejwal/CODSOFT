@@ -115,9 +115,6 @@ nav {
   font-weight: 700;
 }
 
-.nav__logo a span {
-  color: var(--primary-color-dark);
-}
 
 .nav__links {
   position: absolute;
@@ -151,11 +148,6 @@ nav {
 
 .link a:hover {
   color: var(--primary-color-dark);
-}
-
-.nav__menu__btn {
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 
 .header__container {
@@ -323,9 +315,6 @@ nav {
     background-color: transparent;
   }
 
-  .nav__menu__btn {
-    display: none;
-  }
 
   .nav__links {
     position: static;
@@ -380,11 +369,6 @@ nav {
   gap: 2rem;
 }
 
-.footer__col h5 {
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 
 .footer__col p {
   margin-bottom: 1.5rem;
