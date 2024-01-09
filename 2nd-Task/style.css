@@ -114,10 +114,6 @@ body{
     cursor: pointer;
   }
 
-  .btn-sn{
-    padding: 6px 10px;
-    vertical-align: middle;
-  }
    .btn:hover{
     text-decoration: none;
     color: rgb(253, 65, 234);
